@@ -30,7 +30,7 @@
   background-color: #f2f2f2;
 }
 
-.logo_place_header {
+.header__logo_place-header {
   height: 31px;
   width: 154px;
   position: absolute;
@@ -280,6 +280,69 @@
   background-color: #1f1f1f;
 }
 
+.section__title_theme-dark {
+  width: 60%;
+  margin: 0 auto 20px;
+  text-align: center;
+  line-height: 69px;
+  font-size: 60px;
+  font-weight: bold;
+  position: relative;
+  z-index: 2;
+}
+
+.section__subtitle_theme-dark {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table__theme-dark {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.table__cell_theme-dark {
+  max-width: 200px;
+  margin-top: 80px;
+}
+
+.table__heading_theme-dark {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  z-index: 2;
+}
+
+.table__text_theme-dark {
+  margin: 20px 0 0 0;
+  position: relative;
+  z-index: 2;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.kaufman__triangle {
+  width: 636px;
+  height: 660px;
+  position: absolute;
+  top: 0;
+  right: -140px;
+  z-index: 1;
+  animation: rotation 20s linear infinite;
+}
+
 .digits {
   width: 100%;
   margin: 100px auto;
@@ -385,69 +448,6 @@
 
 .khan__buy-link:hover {
   opacity: 0.5;
-}
-
-.section-title_theme_dark {
-  width: 60%;
-  margin: 0 auto 20px;
-  text-align: center;
-  line-height: 69px;
-  font-size: 60px;
-  font-weight: bold;
-  position: relative;
-  z-index: 2;
-}
-
-.section-subtitle_theme_dark {
-  width: 60%;
-  margin: 0 auto;
-  text-align: center;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-}
-
-.table_theme_dark {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.table__cell_theme_dark {
-  max-width: 200px;
-  margin-top: 80px;
-}
-
-.table__heading_theme_dark {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
-  position: relative;
-  z-index: 2;
-}
-
-.table__text_theme_dark {
-  margin: 20px 0 0 0;
-  position: relative;
-  z-index: 2;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.kaufman__triangle {
-  width: 636px;
-  height: 660px;
-  position: absolute;
-  top: 0;
-  right: -140px;
-  z-index: 1;
-  animation: rotation 20s linear infinite;
 }
 
 .resources {
