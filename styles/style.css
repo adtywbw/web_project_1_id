@@ -280,7 +280,7 @@
   background-color: #1f1f1f;
 }
 
-.section-title--theme-dark {
+.section-title_black {
   width: 60%;
   margin: 0 auto 20px;
   text-align: center;
@@ -291,7 +291,7 @@
   z-index: 2;
 }
 
-.section-subtitle--theme-dark {
+.section-subtitle_black {
   width: 60%;
   margin: 0 auto;
   text-align: center;
