@@ -300,7 +300,7 @@
   font-weight: normal;
 }
 
-.table_theme-dark {
+.kaufman__table {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0;
@@ -310,12 +310,12 @@
   flex-wrap: wrap;
 }
 
-.table__cell_theme-dark {
+.kaufman__table-cell {
   max-width: 200px;
   margin-top: 80px;
 }
 
-.table__heading_theme-dark {
+.kaufman__table-heading {
   margin: 0;
   line-height: 1.15;
   font-size: 24px;
@@ -324,7 +324,7 @@
   z-index: 2;
 }
 
-.table__text_theme-dark {
+.kaufman__table-text {
   margin: 20px 0 0 0;
   position: relative;
   z-index: 2;
