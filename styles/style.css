@@ -488,7 +488,7 @@
   justify-content: space-between;
 }
 
-.footer__columns_content-copyright {
+.footer__columns-content-copyright {
   flex-basis: 711px;
   display: flex;
 }
@@ -507,7 +507,7 @@
   align-self: flex-end;
 }
 
-.footer__column-heading {
+.footer__columns-heading {
   margin: 0 0 20px;
   line-height: 30px;
   font-size: 18px;
@@ -519,7 +519,7 @@
   padding: 0;
 }
 
-.footer__column-link {
+.footer__columns-link {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
@@ -529,7 +529,7 @@
   transition: opacity 0.25s;
 }
 
-.footer__column-link:hover {
+.footer__columns-link:hover {
   opacity: 0.5;
 }
 
