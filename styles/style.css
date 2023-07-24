@@ -488,7 +488,7 @@
   justify-content: space-between;
 }
 
-.footer__columns_content_copyright {
+.footer__columns_content-copyright {
   flex-basis: 711px;
   display: flex;
 }
