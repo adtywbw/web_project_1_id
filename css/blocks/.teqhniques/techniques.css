@@ -1,3 +1,9 @@
+@import url("../.cards/cards.css");
+@import url("../.cards__item/cards__item.css");
+@import url("../.cards__image/cards__image.css");
+@import url("../.cards__title/cards__title.css");
+@import url("../.cards__description/cards__description.css");
+
 .techniques {
   width: 100%;
   margin: 100px auto 100px;
@@ -19,41 +25,4 @@
   font-size: 24px;
   font-weight: normal;
   text-align: center;
-}
-
-.cards {
-  width: 1120px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0 0 0 100px;
-}
-
-.cards__item {
-  max-width: 240px;
-  margin-top: 60px;
-  margin-right: 100px;
-}
-
-.cards__image {
-  width: 160px;
-  height: 160px;
-  margin: 0 40px;
-}
-
-.cards__title {
-  margin: 43px 0 0;
-  text-align: center;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.cards__description {
-  margin: 16px 0 0;
-  text-align: center;
-  line-height: 23px;
-  font-size: 18px;
-  font-weight: normal;
 }
