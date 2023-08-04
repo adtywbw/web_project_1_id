@@ -6,3 +6,32 @@
   list-style: none;
   padding: 0 0 0 100px;
 }
+
+.cards__item {
+  max-width: 240px;
+  margin-top: 60px;
+  margin-right: 100px;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  margin: 0 40px;
+  border-radius: 50%;
+}
+
+.cards__title {
+  margin: 43px 0 0;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cards__description {
+  margin: 16px 0 0;
+  text-align: center;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+}

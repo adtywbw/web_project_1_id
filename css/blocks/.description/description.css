@@ -1,9 +1,3 @@
-@import url("../.two-column/two-column.css");
-@import url("../.two-column__brief/two-column__brief.css");
-@import url("../.two-column__main-text/two-column__main-text.css");
-@import url("../.two-column__paragraph/two-column__paragraph.css");
-@import url("../.two-column__paragraph_span-accent/two-column__paragraph_span-accent.css");
-
 .description {
   width: 100%;
   margin: 100px 0;

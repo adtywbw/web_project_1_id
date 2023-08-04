@@ -3,3 +3,28 @@
   justify-content: space-between;
   padding: 0 10%;
 }
+
+.two-column__brief {
+  max-width: 175px;
+  margin: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.two-column__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-column__paragraph {
+  margin: 0 auto 30px;
+  line-height: 34px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.two-column__paragraph_span-accent {
+  font-weight: bold;
+}
